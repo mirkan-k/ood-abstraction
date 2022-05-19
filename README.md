@@ -1,10 +1,10 @@
-# Encapsulation 2
+# Abstraction
 
 ## Learning Objectives
 
 - Explain what is meant by a class "exposing implementation details"
 - Explain the difference between the public and private interface of a class
-- Refactor code to improve encapsulation and hide implementation details
+- Refactor code to improve abstraction and hide implementation details
 
 ## Example
 
