@@ -12,7 +12,7 @@ class TaskList {
     const overdueTasks = []
     for (const task of this.tasks) {
       //it's not been completed
-      if (task.isIncomplete()) {
+      if (!task.isComplete()) {
         //if it has a due date
         if (task.hasValidDueDate()) {
           //if the due date has passed then the task is overdue
